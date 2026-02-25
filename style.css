@@ -12,11 +12,11 @@ body {
 
 h1 {
     font-family: "Georgia", serif;
-    color: #800020; /* burgundy */
+    color: #800020;
 }
 
 p {
-    color: #8B0000; /* dark red/burgundy */
+    color: #8B0000;
     font-size: 18pt;
 }
 
@@ -29,3 +29,4 @@ img {
     border: 2px solid #800020;
     border-radius: 5px;
 }
+
