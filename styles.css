@@ -6,22 +6,26 @@ Includes background color, heading styling, paragraph sizing,
 and image border formatting.
 */
 
+body {
+    background-color: #fff5f5; /* soft cream */
+}
+
 h1 {
- font-family: "Georgia", serif;
- color: darkred;
+    font-family: "Georgia", serif;
+    color: #800020; /* burgundy */
 }
 
 p {
- color: burgundy;
- font-size:18pt;
+    color: #8B0000; /* dark red/burgundy */
+    font-size: 18pt;
 }
+
 ul {
- list-style: upper-roman;
+    list-style: upper-roman;
 }
 
-body {
- background-color: #fff5f5;
-
+/* Optional: add image borders */
+img {
+    border: 2px solid #800020;
+    border-radius: 5px;
 }
-
-
