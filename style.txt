@@ -6,26 +6,19 @@ Includes background color, heading styling, paragraph sizing,
 and image border formatting.
 */
 
-/* Change background color of entire page */
-body {
-    background-color: #f5f0ff;
-}
-
-/* Change text color and font family for h1 headings */
 h1 {
-    color: darkred;
-    font-family: Georgia, serif;
+ font-family: "Georgia", serif;
+ color: darkred;
 }
 
-/* Change font size for all paragraph text */
 p {
-    font-size: 18px;
+ color:red;
+ font-size:18pt;
+}
+ol {
+ list-style: upper-roman;
 }
 
-/* New formatting option:
-   Adds a rounded border and spacing around images */
-img {
-    border: 4px solid black;
-    border-radius: 10px;
-    padding: 5px;
+body {
+ background-color: #f5f0ff;
 }
